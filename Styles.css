@@ -1,0 +1,87 @@
+/* styles.css */
+
+.body-color {
+  background: linear-gradient(to right, #240424, #32033b, #440e70);
+}
+
+/* Navigation Bar */
+
+.color-gradient {
+  background: linear-gradient(to bottom, #40084b, #4608539a, #601b998f);
+}
+
+/* Main Section */
+
+.main {
+  background-color: #f8f9fa;
+  padding: 100px;
+  text-align: center;
+}
+
+.Main_image {
+  background-image: url(imdb-top-50.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+}
+
+.main h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  padding-top: 100px;
+  font-family: "Lobster";
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Lobster";
+  text-align: center;
+}
+
+.main p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Product Listing */
+
+.card1:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.card2:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.card3:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 0;
+}
